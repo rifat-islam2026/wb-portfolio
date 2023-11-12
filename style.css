@@ -60,3 +60,37 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.Experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 150px;
+}
+.Experiences{
+    display: flex;
+}
+.Experiences h3{
+    color: orange;
+}
+.experiences-itme{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 15px;
+border-radius: 10px;
+}
+.experiences-itme h2{
+    font-size: 40px;
+}
+#full-stack-developer{
+    border-left: 7px solid rgb(36, 36, 223);
+}
+#baby-web-developer{
+    border-left: 7px solid rgb(237, 75, 91);
+}
+footer p{
+    text-align: center;
+    color: dimgray;
+    font-size: 12px;
+}
